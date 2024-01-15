@@ -1,5 +1,8 @@
+import TodoListWithState from './components/TodoListWithState';
+import './App.scss';
+
 function App() {
-  return <></>;
+  return <TodoListWithState />;
 }
 
 export default App;

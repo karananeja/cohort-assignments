@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+.todoListWithState {
+  padding: 1rem;
+
+  .inputFields {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 15vw;
+  }
+
+  .btn {
+    background-color: #767676;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 1px solid #bababa;
+
+    &:hover {
+      background-color: #bababa;
+      border-color: #767676;
+    }
+  }
+
+  .todoList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 15vw;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .todoCard {
+    background-color: #bababa;
+    height: 10vh;
+    width: 15vw;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem 0.25rem rgba(187, 184, 184, 0.637);
+    border: 1px solid #767676;
+  }
+}
